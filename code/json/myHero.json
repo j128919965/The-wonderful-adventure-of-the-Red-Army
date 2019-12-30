@@ -1,0 +1,112 @@
+[
+  {
+    "isMy": true,
+    "alive": true,
+    "isStandby": true,
+    "head": "./img/hero1h.png",
+    "staticPic": "./img/hero1.png",
+    "spritePic": "./img/hero1_.png",
+    "name": "潘冬子",
+    "level": 1,
+    "exp": 50,
+    "max_hp": 17,
+    "hp": 17,
+    "attack": 6,
+    "defence": 5,
+    "speed": 10,
+    "move_force": 5,
+    "bag": [
+      1,
+      8,
+      10,
+      12,
+      0
+    ],
+    "addr": {
+      "x": 11,
+      "y": 8
+    },
+    "cell": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 50,
+        "h": 50
+      },
+      {
+        "x": 61,
+        "y": 0,
+        "w": 50,
+        "h": 50
+      },
+      {
+        "x": 122,
+        "y": 0,
+        "w": 50,
+        "h": 50
+      },
+      {
+        "x": 61,
+        "y": 0,
+        "w": 50,
+        "h": 50
+      }
+    ],
+    "txt": "红军小战士潘冬子，拥有革命意志，还没成长起来的新兵蛋子。"
+  },
+  {
+    "isMy": true,
+    "alive": true,
+    "isStandby": true,
+    "head": "./img/hero2h.png",
+    "staticPic": "./img/hero2.png",
+    "spritePic": "./img/hero2_.png",
+    "name": "吴修竹",
+    "level": 10,
+    "exp": 0,
+    "max_hp": 26,
+    "hp": 1,
+    "attack": 1,
+    "defence": 6,
+    "speed": 7,
+    "move_force": 6,
+    "bag": [
+      2,
+      6,
+      10,
+      0,
+      0
+    ],
+    "addr": {
+      "x": 12,
+      "y": 7
+    },
+    "cell": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 49
+      },
+      {
+        "x": 59,
+        "y": 0,
+        "w": 49,
+        "h": 49
+      },
+      {
+        "x": 115,
+        "y": 0,
+        "w": 49,
+        "h": 49
+      },
+      {
+        "x": 59,
+        "y": 0,
+        "w": 49,
+        "h": 49
+      }
+    ],
+    "txt": "游击队长，一名光荣的红军战士，潘冬子革命道路上的引路人，在与恶霸胡汉三的战斗中负伤"
+  }
+]

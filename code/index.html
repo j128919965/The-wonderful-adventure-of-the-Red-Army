@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>红军的奇妙冒险——革命潮流</title>
+    <style>
+        body
+        {
+            background: lightgrey;
+        }
+        #mycanvas
+        {
+            background-color: white;
+            position: absolute;
+            z-index: 0;
+        }
+        #canvasOfCursor
+        {
+            background-color: rgba(255, 255, 255, 0);
+            position: absolute;
+            z-index: 6;
+        }
+        #canvasOfHero
+        {
+            background-color: rgba(255, 255, 255, 0);
+            position: absolute;
+            z-index: 5;
+        }
+        #canvasOfWindow
+        {
+            background-color: rgba(255, 255, 255, 0);
+            position: absolute;
+            z-index: 7;
+        }
+        #canvasOfMove
+        {
+            background-color: rgba(255, 255, 255, 0);
+            position: absolute;
+            z-index: 1;
+        }
+        #canvasOfPath
+        {
+            background-color: rgba(255, 255, 255, 0);
+            position: absolute;
+            z-index: 2;
+        }
+        #canvasOfHeroInformation{
+            background-color: #000000;
+            position: absolute;
+            z-index: 8;
+        }
+        #canvasOfOpenAnime{
+            background-color: rgba(255, 255, 255, 0);
+            position: absolute;
+            z-index: 9;
+        }
+        #finalCVS{
+            position: absolute;
+            background-color: #000;
+            z-index: 10;
+        }
+
+    </style>
+    <script src="js/jquery-3.4.1.js"></script>
+</head>
+<body>
+    <audio id="audioMain" src="music/main.mp3" loop></audio>
+    <audio id = "audioOpen" src="music/open.mp3" loop></audio>
+    <audio id = "audioEnemy" src="music/enemy.mp3" loop></audio>
+    <audio id = "audioFalse" src="music/fail.mp3" loop></audio>
+    <audio id = "audioAttack" src="music/attack.mp3"></audio>
+    <audio id = "audioChoose" src = "music/check.mp3"></audio>
+    <canvas id='mycanvas' width="720" height="480"></canvas>
+    <canvas id='canvasOfCursor' width="720" height="480"></canvas>
+    <canvas id='canvasOfHero' width="720" height="480"></canvas>
+    <canvas id='canvasOfWindow' width="720" height="480"></canvas>
+    <canvas id='canvasOfMove' width="720" height="480"></canvas>
+    <canvas id='canvasOfPath' width="720" height="480"></canvas>
+    <canvas id="canvasOfOpenAnime" width="720" height="480"></canvas>
+    <canvas id="canvasOfHeroInformation" width="720" height="480" style="display: none"></canvas>
+    <canvas id="finalCVS" width="720" height="480"></canvas>
+    <a href="help.html" style="position:absolute;top: 50px;left: 800px;" target="_blank">游戏指南</a>
+    <script src="js/utils.js"></script>
+    <script src="js/Anime.js"></script>
+    <script src="js/Map.js"></script>
+    <script src="js/Weapen.js"></script>
+    <script src="js/Hero.js"></script>
+    <!--author sby-->
+    <script src="js/Queue.js"></script>
+    <script src="js/AI.js"></script>
+    <script src="js/window.js"></script>
+    <script src="js/move.js"></script>
+    <script src="js/path.js"></script>
+    <script src="js/character.js"></script>
+    <script src="js/cursor.js"></script>
+    <!--author csy-->
+    <script src="js/load.js"></script>
+    <script src="js/Main.js"></script>
+    <script src="js/control.js"></script>
+</body>
+</html>

@@ -1,0 +1,494 @@
+[
+  {
+    "isMy":false,
+    "alive":true,
+    "isStandby":true,
+    "head": "./img/ene1h.jpg",
+    "staticPic": "./img/ene1.png",
+    "spritePic": "./img/ene1_.png",
+    "name":"胡汉三",
+    "level":10,
+    "exp":0,
+    "max_hp":26,
+    "hp":26,
+    "attack":10,
+    "defence":8,
+    "speed":6,
+    "move_force":6,
+    "aiType": 2,
+    "bag":[2,3,10,0,0],
+    "addr":{
+      "x":2,
+      "y":2
+    },
+    "cell": [
+      {
+        "x": 5,
+        "y": 0,
+        "w": 40,
+        "h": 40
+      },
+      {
+        "x": 45,
+        "y": 0,
+        "w": 40,
+        "h": 40
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 40,
+        "h": 40
+      },
+      {
+        "x": 45,
+        "y": 0,
+        "w": 40,
+        "h": 40
+      }
+    ],
+    "txt": "土匪头子胡汉三，早年间是个好猎手，后来混成了土匪。战斗力十分强悍。"
+  },
+  {
+    "isMy":false,
+    "alive":true,
+    "isStandby":true,
+    "head": "./img/ene2h.jpg",
+    "staticPic": "./img/ene45.png",
+    "spritePic": "./img/ene45_.png",
+    "name":"胡汉三的走狗",
+    "level":3,
+    "exp":0,
+    "max_hp":15,
+    "hp":15,
+    "attack":6,
+    "defence":3,
+    "speed":4,
+    "move_force":4,
+    "aiType": 0,
+    "bag":[11,10,0,0,0],
+    "addr":{
+      "x":1,
+      "y":3
+    },
+    "cell": [
+      {
+        "x": 2,
+        "y": 0,
+        "w": 57,
+        "h": 57
+      },
+      {
+        "x": 96,
+        "y": 3,
+        "w": 57,
+        "h": 57
+      },
+      {
+        "x": 196,
+        "y": 3,
+        "w": 57,
+        "h": 57
+      },
+      {
+        "x": 96,
+        "y": 3,
+        "w": 57,
+        "h": 57
+      }
+    ],
+    "txt": "胡汉三的走狗，没什么水平，只会玩小刀的菜鸡。英勇无畏，可以为了胡汉三不惜付出自己的生命。"
+  },
+  {
+    "isMy": false,
+    "alive": true,
+    "isStandby": true,
+    "head": "./img/ene3h.png",
+    "staticPic": "./img/ene67.png",
+    "spritePic": "./img/ene67_.png",
+    "name": "胡汉三的走猫",
+    "level": 3,
+    "exp": 0,
+    "max_hp": 21,
+    "hp": 21,
+    "attack": 4,
+    "defence": 5,
+    "speed": 4,
+    "move_force": 4,
+    "aiType": 1,
+    "bag": [
+      5,
+      10,
+      0,
+      0,
+      0
+    ],
+    "addr": {
+      "x": 3,
+      "y": 3
+    },
+    "cell": [
+      {
+        "x": 10,
+        "y": 0,
+        "w": 43,
+        "h": 43
+      },
+      {
+        "x": 57,
+        "y": 0,
+        "w": 43,
+        "h": 43
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 43,
+        "h": 43
+      },
+      {
+        "x": 57,
+        "y": 0,
+        "w": 43,
+        "h": 43
+      }
+    ],
+    "txt": "胡汉三的走猫，耐打，力气小，但是特别怂，决不主动出击。"
+  },
+  {
+    "isMy": false,
+    "alive": true,
+    "isStandby": true,
+    "head": "./img/ene456789h.png",
+    "staticPic": "./img/ene45.png",
+    "spritePic": "./img/ene45_.png",
+    "name": "无名流氓",
+    "level": 2,
+    "exp": 0,
+    "max_hp": 17,
+    "hp": 17,
+    "attack": 5,
+    "defence": 4,
+    "speed": 7,
+    "move_force": 4,
+    "aiType": 1,
+    "bag": [
+      1,
+      10,
+      0,
+      0,
+      0
+    ],
+    "addr": {
+      "x": 5,
+      "y": 5
+    },
+    "cell": [
+      {
+        "x": 2,
+        "y": 0,
+        "w": 57,
+        "h": 57
+      },
+      {
+        "x": 96,
+        "y": 3,
+        "w": 57,
+        "h": 57
+      },
+      {
+        "x": 196,
+        "y": 3,
+        "w": 57,
+        "h": 57
+      },
+      {
+        "x": 96,
+        "y": 3,
+        "w": 57,
+        "h": 57
+      }
+    ],
+    "txt": "一个小混混。擅长用刀。"
+  },
+  {
+    "isMy": false,
+    "alive": true,
+    "isStandby": true,
+    "head": "./img/ene456789h.png",
+    "staticPic": "./img/ene45.png",
+    "spritePic": "./img/ene45_.png",
+    "name": "无名流氓",
+    "level": 2,
+    "exp": 0,
+    "max_hp": 17,
+    "hp": 17,
+    "attack": 5,
+    "defence": 4,
+    "speed": 7,
+    "move_force": 4,
+    "aiType": 0,
+    "bag": [
+      1,
+      10,
+      0,
+      0,
+      0
+    ],
+    "addr": {
+      "x": 3,
+      "y": 5
+    },
+    "cell": [
+      {
+        "x": 2,
+        "y": 0,
+        "w": 57,
+        "h": 57
+      },
+      {
+        "x": 96,
+        "y": 3,
+        "w": 57,
+        "h": 57
+      },
+      {
+        "x": 196,
+        "y": 3,
+        "w": 57,
+        "h": 57
+      },
+      {
+        "x": 96,
+        "y": 3,
+        "w": 57,
+        "h": 57
+      }
+    ],
+    "txt": "一个小混混。擅长用刀。"
+  },
+  {
+    "isMy": false,
+    "alive": true,
+    "isStandby": true,
+    "head": "./img/ene456789h.png",
+    "staticPic": "./img/ene67.png",
+    "spritePic": "./img/ene67_.png",
+    "name": "无名流氓",
+    "level": 2,
+    "exp": 0,
+    "max_hp": 20,
+    "hp": 20,
+    "attack": 6,
+    "defence": 5,
+    "speed": 3,
+    "move_force": 4,
+    "aiType": 0,
+    "bag": [
+      4,
+      10,
+      0,
+      0,
+      0
+    ],
+    "addr": {
+      "x": 6,
+      "y": 6
+    },
+    "cell": [
+      {
+        "x": 10,
+        "y": 0,
+        "w": 43,
+        "h": 43
+      },
+      {
+        "x": 57,
+        "y": 0,
+        "w": 43,
+        "h": 43
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 43,
+        "h": 43
+      },
+      {
+        "x": 57,
+        "y": 0,
+        "w": 43,
+        "h": 43
+      }
+    ],
+    "txt": "一个小混混。擅长用长矛。"
+  },
+  {
+    "isMy": false,
+    "alive": true,
+    "isStandby": true,
+    "head": "./img/ene456789h.png",
+    "staticPic": "./img/ene67.png",
+    "spritePic": "./img/ene67_.png",
+    "name": "无名流氓",
+    "level": 2,
+    "exp": 0,
+    "max_hp": 20,
+    "hp": 20,
+    "attack": 6,
+    "defence": 5,
+    "speed": 3,
+    "move_force": 4,
+    "aiType": 1,
+    "bag": [
+      4,
+      10,
+      0,
+      0,
+      0
+    ],
+    "addr": {
+      "x":4,
+      "y": 6
+    },
+    "cell": [
+      {
+        "x": 10,
+        "y": 0,
+        "w": 43,
+        "h": 43
+      },
+      {
+        "x": 57,
+        "y": 0,
+        "w": 43,
+        "h": 43
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 43,
+        "h": 43
+      },
+      {
+        "x": 57,
+        "y": 0,
+        "w": 43,
+        "h": 43
+      }
+    ],
+    "txt": "一个小混混。擅长用长矛。"
+  },
+  {
+    "isMy": false,
+    "alive": true,
+    "isStandby": true,
+    "head": "./img/ene456789h.png",
+    "staticPic": "./img/ene89.png",
+    "spritePic": "./img/ene89_.png",
+    "name": "无名流氓",
+    "level": 2,
+    "exp": 0,
+    "max_hp": 19,
+    "hp": 19,
+    "attack": 7,
+    "defence": 3,
+    "speed": 2,
+    "move_force": 4,
+    "aiType": 0,
+    "bag": [
+      7,
+      10,
+      0,
+      0,
+      0
+    ],
+    "addr": {
+      "x": 4,
+      "y": 4
+    },
+    "cell": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      {
+        "x": 38,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      {
+        "x": 79,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      {
+        "x": 38,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      }
+    ],
+    "txt": "一个小混混。擅长用斧头。"
+  },
+  {
+    "isMy": false,
+    "alive": true,
+    "isStandby": true,
+    "head": "./img/ene456789h.png",
+    "staticPic": "./img/ene89.png",
+    "spritePic": "./img/ene89_.png",
+    "name": "无名流氓",
+    "level": 2,
+    "exp": 0,
+    "max_hp": 19,
+    "hp": 19,
+    "attack": 7,
+    "defence": 3,
+    "speed": 2,
+    "move_force": 4,
+    "aiType": 1,
+    "bag": [
+      7,
+      10,
+      0,
+      0,
+      0
+    ],
+    "addr": {
+      "x": 2,
+      "y": 4
+    },
+    "cell": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      {
+        "x": 38,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      {
+        "x": 79,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      {
+        "x": 38,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      }
+    ],
+    "txt": "一个小混混。擅长用斧头。"
+  }
+]
